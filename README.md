@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% 階段 0
     subgraph Stage0 [0. 啟用前滿足條件]
@@ -23,3 +24,4 @@ graph TD
         J -- 成功 --&gt; K[進入下階段 3-2]
         J -- 不成功 --&gt; L[程序取消 3-1 &amp; 排除問題]
     end
+```
